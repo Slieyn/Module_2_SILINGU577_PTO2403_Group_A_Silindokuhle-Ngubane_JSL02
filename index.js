@@ -60,6 +60,7 @@ newGoal.textContent = goalInput;
 goalList.appendChild(newGoal);
 
 // Add event listener to the goal submit button
+newGoal.textContent = goalInput.value;
 document.querySelector('#submitGoal').addEventListener('click', addNewGoal);
 
 
